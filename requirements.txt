@@ -1,5 +1,5 @@
-pandas
-numpy
-streamlit
-scikit-learn
-xgboost
+streamlit==1.49.0
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.2.5
+xgboost==3.0.4
