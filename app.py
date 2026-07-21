@@ -41,8 +41,10 @@ df=pd.read_csv('swiggy_demographic.csv')
 #trained_model=pickle.load(open(r"C:\swiggy\swiggy delivery time project.pkl","rb"))
 
 
-with open(r'swiggy_delivery_time_project.pkl','rb') as f:
-    trained_model=pickle.load(f)
+# with open(r'swiggy_delivery_time_project.pkl','rb') as f:
+#     trained_model=pickle.load(f)
+
+trained_model=pickle.load(open(r"swiggy_delivery_time_project.pkl","rb"))
 
 
 # ----------- User Inputs -----------
